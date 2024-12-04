@@ -1,0 +1,81 @@
+<!--******************************************************************************************************************
+*
+* Nombre: Iván Nieto Carmona
+* Fecha: 22/10/2024
+* Modulo: Lenguaje de marcas y sistemas.
+* UD: UD1 LMSGI01 Tarea evaluativa 2. 
+* Tarea: Primer sitio web sin formato,
+* Enlace autoevaluacion: https://drive.google.com/file/d/1UUyJk1kuMylfthB6_uc2TANatQzj0D9F/view?usp=drive_link
+* Descripción del programa: El objetivo de esta tarea es realizar un curriculum Vitae.
+* 
+*******************************************************************************************************************/ <-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print3D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <h1 class="titulo"> <img src="imagenes/Captura_de_pantalla_2024-11-12_004750-removebg-preview.png">  </h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Noticias.html">Noticias</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+                <div id="logoCont"> 
+                <img src="imagenes/Captura_de_pantalla_2024-11-12_004750-removebg-preview.png">  
+             </div>
+       
+    </header>
+        <section>
+        <h2 id="tituloForm"titulo> Formulario de contacto </h2> <br>                                  <!--formulario de contacto-->
+            <article>
+                <form id="form1" action="mailto:elcorreoquequieres@correo.com" method="post">
+                    <fieldset>
+                     <legend><h3>Contactanos</h3></legend>
+
+                     <label> Nombre:</label>
+                        <input type="text" id="nombre1" name="nombre2" value="Nombre">
+
+                        <label> Email:</label>
+                        <input type="text" id="email1" name="email1" value="email:">
+
+                        <label>  Departamentos.</label>
+                        <select id="Departamentos1" name="departamentos">
+                            <option value="ayuda1"> A.cliente </option>
+                            <option value="produc1"> Productos </option>
+                        </select>
+
+                            <input type="submit" value="Enviar">
+
+                           
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+        <footer>  
+            <div class="footerContenedor">
+                <div class="iconos">
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href=""> <i class="fa-brands fa-twitter"></i></a>
+                   
+        </div>
+            </div>
+            <div class="footerBajo">
+                <p xmlns:cc="http://creativecommons.org/ns#" >Esta obra está licenciada bajo <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="licencia noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:20px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
+
+            </div>
+        </footer>
+</body>
+</html>
